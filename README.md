@@ -81,3 +81,11 @@ Al escribir en el input, deben aparecer solo las tarjetas en donde el nombre del
 Al seleccionar un color, deben aparecer solo los gatos del color seleccionado. 
 
 Al seleccionar un sexo, deben aparecer solo los gatos del sexo seleccionado. 
+
+### 4. 
+
+Modifica los `button` por `input type="checkbox"`. 
+Dale al usuario la posibilidad de elegir dos colores, y que se vean los gatos que tienen cualquiera de esos colores. 
+Corregi el codigo para que el filtro siga funcionando. 
+
+Tus filtros funcionan, pero no todos a la vez. Se aplican uno por uno. Avanzaremos con esa funcionalidad en clases siguientes. 
