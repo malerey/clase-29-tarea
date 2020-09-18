@@ -64,20 +64,25 @@ Agregale a cada tarjeta la siguiente `data` (inventada)
 - sexo
 - color
 
+- Hacé los siguientes ejercicios en orden. No avances al siguiente hasta que el primero este funcionando. 
+- Usa `console.log` a cada momento para revisar que hayas seleccionado los elementos correctos, y que la data que estes usando sea la correcta. 
+
 ### 2. 
 
-Agrega un `<form>` a tu web con:
-- Un input `type="text"` con el label "Nombre"
-- Un `<select>` con el label "Colores" y como opciones, colores habituales de gatos. 
-- Tres input `type="radio"` con el label "Sexo" y como opciones "hembra", "macho" e "indistinto". 
-  
+1. Agrega a tu web un input `type="text"` con el label "Nombre". 
+2. Crea una funcion llamada filtrarPorNombre. 
+3. Al escribir en el input, debe llamarse a esa funcion, que se encarga de que aparezcan solo las tarjetas en donde el nombre del gato coincida con lo escrito por el usuario. 
+
 ### 3. 
 
-Hacé cada uno de estos ejercicios en orden. No avances al siguiente hasta que el primero este funcionando. 
-Usa `console.log` a cada momento para revisar que hayas seleccionado los elementos correctos, y que la data que estes usando sea la correcta. 
+1. Agrega a tu web un `<select>` con el label "Colores" y como opciones, colores habituales de gatos. 
+2. Crea una funcion llamada filtrarPorColor. 
+3. Al seleccionar un color, debe llamarse a esa funcion, que se encarga de que aparezcan solo los gatos del color seleccionado. 
 
-Al escribir en el input, deben aparecer solo las tarjetas en donde el nombre del gato coincida con lo escrito. 
+### 4
 
-Al seleccionar un color, deben aparecer solo los gatos del color seleccionado. 
+1. Agrega a tu web tres input `type="radio"` con el label "Sexo" y como opciones "hembra", "macho" e "indistinto". 
+2. Crea una funcion llamada filtrarPorSexo. 
+3. Al seleccionar un sexo, debe llamarse a esa funcion, que se encarga de que aparezcan solo los gatos del sexo seleccionado. 
 
-Al seleccionar un sexo, deben aparecer solo los gatos del sexo seleccionado. 
+
